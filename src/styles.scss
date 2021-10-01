@@ -1,0 +1,215 @@
+/* Body style */
+body {
+  background-image: (url("./images/book.jpeg"));
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #666;
+  letter-spacing: 1px;
+  padding: 10px;
+  min-height: 100vh;
+}
+/* Header style & links to other pages style */
+header {
+  text-align: center;
+  margin: 10px 0 10px 0;
+
+  .links {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 100%;
+    margin-bottom: 20px;
+
+    .link:link,
+    .link:visited {
+      padding: 5px 10px;
+      font-weight: 100;
+      margin: 1rem;
+      color: #44312c;
+      text-decoration: none;
+      text-transform: uppercase;
+      border-bottom: 10px solid transparent;
+      transition: all 0.3s;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -ms-transition: all 0.3s;
+      -o-transition: all 0.3s;
+
+      &.active {
+        font-weight: 500;
+      }
+    }
+
+    .link:hover,
+    .link:active {
+      border-bottom: 3px solid #fff;
+    }
+  }
+}
+/* Description of a paragraph element */
+.description1 {
+  color: #fafafa;
+  font-style: italic;
+}
+.description2 {
+  color: #44312c;
+  font-style: italic;
+  font-style: bold;
+}
+
+/* Headings style */
+h1,
+h2 {
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 4px #000000;
+  font-weight: bold;
+}
+
+/* Main form style */
+.main-content {
+  width: 100%;
+  margin: auto auto 100px auto;
+}
+
+.main {
+  margin-left: 10px;
+}
+
+.form {
+  width: 50%;
+  float: left;
+  margin-bottom: 50px;
+}
+.main-form {
+  color: #ffffff;
+  font-size: 17px;
+  width: 40%;
+  margin: auto;
+}
+
+/* Book style */
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.card-body {
+  background-color: rgb(255, 255, 255);
+}
+
+.book {
+  margin: 10px;
+  width: 288px;
+  overflow: hidden;
+
+  .book-title {
+    font-weight: bold;
+  }
+
+  .book-details {
+    margin-bottom: 1rem;
+
+    & > div {
+      margin-bottom: 0.5rem;
+    }
+  }
+}
+/* Inputs of main style */
+
+.input-control {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h3 {
+    color: #666666;
+    margin-bottom: 2rem;
+  }
+}
+
+/* Button style */
+button {
+  text-align: center;
+  width: 100%;
+  height: 45px;
+  padding-top: 100px;
+}
+
+.btn-primary {
+  background-color: #332b29 !important;
+  border-color: #251f1e !important;
+  margin-bottom: 2px;
+}
+.btn-primary:hover {
+  background-color: #332b29 !important;
+  border-color: #332b29 !important;
+  margin-bottom: 2px;
+}
+.btn-primary:focus {
+  background-color: #413633 !important;
+  border-color: #332b29 !important;
+  box-shadow: none !important;
+}
+
+.btn-danger {
+  color: #fcfcfc;
+  background-color: #7e0d0d;
+  border-color: #7e0d0d;
+}
+
+.btn-danger:hover {
+  color: #ffffff;
+  background-color: #991212;
+  border-color: #991212;
+}
+.submit-btn {
+  margin-top: 1rem;
+}
+
+/* Error messages style */
+.errorMsg {
+  color: #991212;
+}
+
+.successMsg {
+  color: #c4c12d;
+  background: #757707;
+  padding: 10px;
+}
+
+.centered-message {
+  width: 500px;
+  margin: auto;
+}
+
+.message {
+  color: #ffffff;
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+//responsive
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  header {
+    .links {
+      a {
+        font-size: 1.2rem;
+      }
+
+      .link:link,
+      .link:visited {
+        margin: unset;
+      }
+    }
+  }
+
+  .main-form {
+    width: 100%;
+  }
+  .submit-btn {
+    margin-top: 1rem;
+  }
+}
