@@ -113,7 +113,7 @@ const Container = styled.div`
   align-items: center;
   padding: 0 2rem;
 
-  @media (max-width: 900px) {
+  @media screen and (max-width:800px) {
     width: 100vw;
     position: absolute;
     padding: 0;
@@ -123,10 +123,12 @@ const Container = styled.div`
     font-weight: bold;
     font-size: 13px;
     margin-top: 2rem;
+    
     span {
       color: #c40a0a;
       cursor: pointer;
     }
+  
   }
 `;
 
