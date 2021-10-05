@@ -5,10 +5,14 @@ Using the application you will be able to:
 - Mark a book as lent.
 - Remove the lent status when the book is brought back.
 
-
-<img width="1440" alt="bookapp jpg" src="https://user-images.githubusercontent.com/79687843/136054769-599c744e-ffbf-4a70-a591-4708fcec087c.png">
+#First Page
 
 <img width="1440" alt="Screenshot 2021-10-05 at 18 06 17" src="https://user-images.githubusercontent.com/79687843/136054877-c153e106-dd81-4b0f-9b2a-ed778522d0ba.png">
+
+
+#Second Page
+<img width="1440" alt="bookapp jpg" src="https://user-images.githubusercontent.com/79687843/136054769-599c744e-ffbf-4a70-a591-4708fcec087c.png">
+
 
 
 
