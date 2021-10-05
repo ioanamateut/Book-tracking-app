@@ -1,19 +1,9 @@
 
-#Description
-You’re sick of lending books to your friends and never getting them back. Fortunately during the pandemic you always have your laptop with you’ve decided that you end this nonsense by building a book tracking application.
-
-Using the application you should be able to:
+You’re sick of lending books to your friends and never getting them back? Fortunately, I create a small application that helps you manage your borrowed books.
+Using the application you will be able to:
 - List, add, modify and remove (in case you gift it away) books.
 - Mark a book as lent.
 - Remove the lent status when the book is brought back.
-
-
-
-
-
-
-
-
 
 
 
